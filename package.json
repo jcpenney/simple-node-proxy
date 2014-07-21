@@ -19,6 +19,7 @@
     "url": "https://github.com/jcpenney/simple-node-proxy/issues"
   },
   "dependencies": {
-    "request": "~2.37.0"
+    "request": "~2.37.0",
+    "jade": "~1.4.2"
   }
 }

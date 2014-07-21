@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+  head
+    title Simple Node Proxy 
+    style.
+      body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        margin: 20px;
+      }
+      a {
+        color: #cc0000;
+      }
+  body
+    h1 This is the index rendered by the server.
+    p
+      | Visit 
+      a(href='hello-proxy', title='Hello Proxy') /hello-proxy 
+      | for a page rendered by the proxy.
+
+    p
+      | Or 
+      a(href='hello-server', title='Hello Server') /hello-server 
+      | for another page rendered by the server.
