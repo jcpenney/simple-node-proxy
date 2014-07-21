@@ -1,0 +1,24 @@
+{
+  "name": "simple-node-proxy",
+  "version": "0.0.0",
+  "description": "A simple example demonstrating how Node can be used as a proxy server.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcpenney/simple-node-proxy"
+  },
+  "keywords": [
+    "simple",
+    "node",
+    "proxy"
+  ],
+  "engine": "node 0.11.13",
+  "author": "Nick Cherry",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jcpenney/simple-node-proxy/issues"
+  },
+  "dependencies": {
+    "request": "~2.37.0"
+  }
+}
